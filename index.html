@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMENEL - Manutenção Industrial e Predial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="./img/faviconnobg.png">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="./img/faviconnobg.png">
+                <h1>EMENEL</h1>
+            </div>
+            <nav>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#plans" class="nav-link">Planos</a></li>
+                    <li><a href="#testimonials" class="nav-link">Clientes</a></li>
+                    <li><a href="#partners" class="nav-link">Parcerias</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Com a Emenel, sua estrutura vai bem, e seu negócio vai além!</h2>
+            <p>Oferecemos soluções completas em gestão e manutenção industrial e predial para elevar sua operação ao próximo nível.</p>
+            <a href="#services" class="btn scroll-btn">Saiba mais</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-columns">
+                <div class="services-column">
+                    <h3 class="services-category">Manutenção Industrial</h3>
+                    <div class="service-card">
+                        <h4>Manutenção Corretiva</h4>
+                        <ul>
+                            <li>Reparos emergenciais em máquinas paradas</li>
+                            <li>Substituição de componentes danificados</li>
+                            <li>Correção de falhas em linhas de produção</li>
+                            <li>Conserto de equipamentos de automação (CLPs, IHMs)</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h4>Manutenção Preventiva</h4>
+                        <ul>
+                            <li>Cronograma de trocas programadas de peças com desgaste</li>
+                            <li>Inspeções visuais e funcionais regulares</li>
+                            <li>Limpeza técnica de equipamentos e painéis elétricos</li>
+                            <li>Análise de testes, eventos e falhas (soft starters, inversores de frequência)</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h4>Manutenção Preditiva</h4>
+                        <ul>
+                            <li>Análise de vibração de motores e redutores em tempo real</li>
+                            <li>Termografia para detecção de pontos quentes</li>
+                            <li>Monitoramento remoto de desempenho de máquinas</li>
+                            <li>Análise de corrente elétrica para predição de falhas em motores</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services-column">
+                    <h3 class="services-category">Manutenção Predial</h3>
+                    <div class="service-card">
+                        <h4>Manutenção Corretiva</h4>
+                        <ul>
+                            <li>Reparo de sistemas de iluminação e tomadas</li>
+                            <li>Substituição de relés e câmeras de segurança com falhas</li>
+                            <li>Reparo de sistemas de automação (Finder, Alexa)</li>
+                            <li>Correção de vazamentos e entupimentos em encanamentos</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h4>Manutenção Preventiva</h4>
+                        <ul>
+                            <li>Inspeções mensais em sistemas elétricos</li>
+                            <li>Revisão periódica de sistemas de combate a incêndio</li>
+                            <li>Verificação de fechaduras elétricas</li>
+                            <li>Atualização de firmware de dispositivos e apps</li>
+                            <li>Verificação de telhados e calhas para evitar infiltrações</li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h4>Manutenção Preditiva</h4>
+                        <ul>
+                            <li>Termografia de painéis elétricos para prevenir curtos</li>
+                            <li>Monitoramento de consumo de energia com sensores IoT</li>
+                            <li>Análise de desempenho da rede de automação</li>
+                            <li>Monitoramento de desempenho em tempo real</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans" id="plans">
+        <div class="plans-container">
+            <h2 class="section-title">Nossos Planos</h2>
+            <div class="plans-tabs">
+                <button class="tab-btn active" data-tab="avulsa">Avulsa</button>
+                <button class="tab-btn" data-tab="6meses">6 Meses</button>
+                <button class="tab-btn" data-tab="1ano">1 Ano</button>
+            </div>
+            
+            <div class="plans-content active" id="avulsa">
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <h3>Manutenção Corretiva</h3>
+                        <div class="price">R$ 11.990</div>
+                        <ul>
+                            <li>Atendimento em até 24h úteis</li>
+                            <li>Cobertura para até 3 equipamentos</li>
+                            <li>12h de serviço técnico no local</li>
+                            <li>Relatório técnico detalhado com diagnóstico e solução</li>
+                            <li>Checklists de segurança e funcionalidade</li>
+                            <li>Reposição emergencial de peças (materiais cobrados à parte)</li>
+                            <li>Deslocamento a parte</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                    <div class="plan-card">
+                        <h3>Manutenção Preventiva</h3>
+                        <div class="price">R$ 12.499,99</div>
+                        <ul>
+                            <li>Atendimento em até 24h úteis</li>
+                            <li>Cobertura para até 3 equipamentos</li>
+                            <li>12h de serviço técnico</li>
+                            <li>Relatório técnico com análise de tendência de falhas</li>
+                            <li>Monitoramento com instrumentos (ex: termografia, análise de vibração, ruído)</li>
+                            <li>Avaliação de desgaste e desempenho</li>
+                            <li>Recomendação para troca preventiva de peças/componentes</li>
+                            <li>Deslocamento a parte</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                    <div class="plan-card popular">
+                        <h3>Manutenção Preditiva</h3>
+                        <div class="price">R$ 12.799,90</div>
+                        <ul>
+                            <li>Atendimento em até 24h úteis</li>
+                            <li>Cobertura para até 3 equipamentos</li>
+                            <li>12h de serviço técnico</li>
+                            <li>Relatório técnico com análise de tendência de falhas</li>
+                            <li>Monitoramento com instrumentos (ex: termografia, análise de vibração, ruído)</li>
+                            <li>Avaliação de desgaste e desempenho</li>
+                            <li>Recomendação para troca preventiva de peças</li>
+                            <li>Histórico comparativo (se houver visitas anteriores)</li>
+                            <li>Deslocamento a parte</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                    <div class="plan-card">
+                        <h3>Manutenção Avulsa Premium</h3>
+                        <div class="price">R$ 30.500,00</div>
+                        <ul>
+                            <li>Pacote 3 visitas avulsas</li>
+                            <li>Escolha qualquer tipo de manutenção</li>
+                            <li>Upgrade para plano de 6 meses com desconto de 15% no valor mensal</li>
+                            <li>Agende até o fim do mês e ganhe 30% de desconto em peças parceiras</li>
+                            <li>Deslocamento incluso no valor</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="plans-content" id="6meses">
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <h3>Corretiva 6 Meses</h3>
+                        <div class="price">R$ 9.899,90/mês</div>
+                        <div class="price-small">R$ 5.900 no primeiro mês</div>
+                        <ul>
+                            <li>Duração: 6 meses</li>
+                            <li>Visitas programadas: 1 (4 no total)</li>
+                            <li>Cobertura: até 12 equipamentos no total</li>
+                            <li>Atendimento emergencial: em até 24h úteis</li>
+                            <li>Cobertura para até 10 equipamentos</li>
+                            <li>28h mensais de serviço técnico no local</li>
+                            <li>Relatório técnico detalhado com diagnóstico e solução</li>
+                            <li>Checklists de segurança e funcionalidade</li>
+                            <li>Reposição emergencial de peças/componentes (materiais cobrados à parte)</li>
+                            <li>Disponibilidade de 6 dias por semana</li>
+                            <li>Desconto de 15% em peças parceiras</li>
+                            <li>Deslocamento incluso no valor</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                    <div class="plan-card popular">
+                        <h3>Preventiva 6 Meses</h3>
+                        <div class="price">R$ 10.690/mês</div>
+                        <div class="price-small">R$ 6.000 no primeiro mês</div>
+                        <ul>
+                            <li>Duração: 6 meses</li>
+                            <li>Visitas programadas: 1 (4 no total)</li>
+                            <li>Cobertura: até 12 equipamentos no total</li>
+                            <li>Atendimento emergencial: em até 24h úteis</li>
+                            <li>Cobertura para até 10 equipamentos</li>
+                            <li>28h mensais de serviço técnico no total</li>
+                            <li>Relatório detalhado</li>
+                            <li>Relatório técnico com análise de tendência de falhas</li>
+                            <li>Histórico comparativo (de visitas anteriores)</li>
+                            <li>Disponibilidade de 6 dias por semana</li>
+                            <li>Desconto de 15% em peças parceiras</li>
+                            <li>Deslocamento incluso no valor</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                    <div class="plan-card">
+                        <h3>Preditiva 6 Meses</h3>
+                        <div class="price">R$ 10.990/mês</div>
+                        <div class="price-small">R$ 6.000 no primeiro mês</div>
+                        <ul>
+                            <li>Duração: 6 meses</li>
+                            <li>Visitas programadas: 1 (4 no total)</li>
+                            <li>Cobertura: até 12 equipamentos no total</li>
+                            <li>Atendimento emergencial: em até 24h úteis</li>
+                            <li>Cobertura para até 10 equipamentos</li>
+                            <li>28h mensais de serviço técnico</li>
+                            <li>Relatório técnico com análise de tendência de falhas</li>
+                            <li>Monitoramento com instrumentos (ex: termografia, análise de vibração, ruído)</li>
+                            <li>Avaliação de desgaste e desempenho</li>
+                            <li>Recomendação de troca preventiva de peças</li>
+                            <li>Histórico comparativo (visitas anteriores)</li>
+                            <li>Disponibilidade de 6 dias por semana</li>
+                            <li>Desconto de 15% em peças parceiras</li>
+                            <li>Deslocamento incluso no valor</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="plans-content" id="1ano">
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <h3>Corretiva 1 Ano</h3>
+                        <div class="price">R$ 119.499,90/ano</div>
+                        <div class="price-small">R$ 12.000 no primeiro mês</div>
+                        <ul>
+                            <li>Duração: 1 ano</li>
+                            <li>Visitas programadas: 2 visitas mensais (24 no total)</li>
+                            <li>Cobertura Ilimitada</li>
+                            <li>Atendimento emergencial: em até 12h úteis</li>
+                            <li>120h mensais de serviço técnico no local</li>
+                            <li>Relatório técnico detalhado e especializado com diagnóstico e solução</li>
+                            <li>Checklists de segurança e funcionalidade</li>
+                            <li>Reposição emergencial de peças/componentes (materiais cobrados à parte)</li>
+                            <li>Disponibilidade 24/7</li>
+                            <li>Desconto de 20% em peças parceiras</li>
+                            <li>Deslocamento incluso no valor</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                    <div class="plan-card popular">
+                        <h3>Preventiva 1 Ano</h3>
+                        <div class="price">R$ 129.490,90/ano</div>
+                        <div class="price-small">R$ 13.000 no primeiro mês</div>
+                        <ul>
+                            <li>Duração: 1 ano</li>
+                            <li>Visitas programadas: 2 visitas mensais (24 no total)</li>
+                            <li>Cobertura Ilimitada</li>
+                            <li>Atendimento emergencial: em até 12h úteis</li>
+                            <li>120h mensais de serviço técnico no total</li>
+                            <li>Relatório completo com fotos e com análise de tendência de falhas</li>
+                            <li>Histórico comparativo (de visitas anteriores)</li>
+                            <li>Disponibilidade 24/7</li>
+                            <li>Treinamento de equipe</li>
+                            <li>Desconto de 20% em peças parceiras</li>
+                            <li>Deslocamento incluso no valor</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                    <div class="plan-card">
+                        <h3>Preditiva 1 Ano</h3>
+                        <div class="price">R$ 129.990,90</div>
+                        <div class="price-small">R$ 13.499,99 no primeiro mês</div>
+                        <ul>
+                            <li>Duração: 1 ano</li>
+                            <li>Visitas programadas: 2 visitas mensais (24 no total)</li>
+                            <li>Cobertura Ilimitada</li>
+                            <li>Atendimento emergencial: em até 12h úteis</li>
+                            <li>120h mensais de serviço técnico</li>
+                            <li>Relatório completo com fotos e com análise de tendência de falhas</li>
+                            <li>Monitoramento em tempo real com IoT e instrumentos</li>
+                            <li>Recomendação de troca preventiva de peças</li>
+                            <li>Histórico comparativo (visitas anteriores)</li>
+                            <li>Disponibilidade 24/7</li>
+                            <li>Treinamento de equipe</li>
+                            <li>Desconto de 20% em peças parceiras</li>
+                            <li>Deslocamento incluso no valor</li>
+                        </ul>
+                        <a href="#contact" class="btn scroll-btn">Quero Negociar!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-container">
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <img src="https://logo.clearbit.com/einstein.br" alt="Hospital Albert Einstein">
+                        <div>
+                            <h4>Hospital Albert Einstein</h4>
+                            <p>Gerente de Facilities</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"A EMENEL revolucionou nossa gestão de manutenção predial. Com seu serviço preditivo, reduzimos em 40% nossas paradas não programadas e aumentamos a eficiência energética do hospital."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <img src="https://logo.clearbit.com/weg.net" alt="WEG">
+                        <div>
+                            <h4>WEG</h4>
+                            <p>Superintendente Industrial</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Contratamos a EMENEL para manutenção industrial e os resultados superaram expectativas. O monitoramento em tempo real evitou falhas críticas em nossa linha de produção, economizando milhões."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="client-info">
+                        <img src="https://logo.clearbit.com/itau.com.br" alt="Itaú">
+                        <div>
+                            <h4>Banco Itaú</h4>
+                            <p>Diretor de Operações</p>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"A EMENEL gerencia a manutenção predial de mais de 50 agências nossas. Sua abordagem preventiva reduziu custos operacionais em 25% e aumentou a satisfação dos nossos clientes com ambientes mais confortáveis e seguros."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners" id="partners">
+        <div class="partners-container">
+            <h2 class="section-title">Nossas Parcerias</h2>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <img src="https://logo.clearbit.com/weg.net" alt="WEG">
+                    <h3>WEG</h3>
+                    <p>Como parceira da WEG, nossa empresa atua com as mais avançadas tecnologias em acionamentos e automação industrial. A WEG é líder nacional e internacional em soluções de eficiência energética, com robustez, performance e dedicado suporte técnico para aplicações industriais.</p>
+                </div>
+                <div class="partner-card">
+                    <img src="https://logo.clearbit.com/siemens.com" alt="Siemens">
+                    <h3>Siemens</h3>
+                    <p>Com nossa aliança com a Siemens, somos capazes de trabalhar com equipamentos de automação de ponta que garantem inovação, confiabilidade e conectividade para os processos industriais. A Siemens é a maior fornecedora de digitalização e soluções integradas da indústria 4.0.</p>
+                </div>
+                <div class="partner-card">
+                    <img src="https://logo.clearbit.com/finder.com" alt="Finder">
+                    <h3>Finder</h3>
+                    <p>A Finder é especializada na produção de componentes de automação para residências, comércios e indústria. Por meio dessa parceria, oferecemos soluções de qualidade para segurança e eficiência, como controle de iluminação, automação de ambiente e sistemas elétricos prediais.</p>
+                </div>
+                <div class="partner-card">
+                    <img src="https://logo.clearbit.com/intelbras.com.br" alt="Intelbras">
+                    <h3>Intelbras</h3>
+                    <p>Sendo a Intelbras nossa parceira, ofertamos soluções integradas para segurança eletrônica, conectividade e automação de prédios residenciais e comerciais. A referida marca é líder em inovação acessível no cenário brasileiro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div>
+                <h2 class="section-title">Entre em Contato</h2>
+                <p>Estamos prontos para ajudar sua empresa a alcançar a excelência operacional</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <p>(11) 4002-8922</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contato.emenel@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <p>Rua dos Trilhos, 1200 – Mooca, São Paulo – SP, 03168-010</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário</h3>
+                            <p>Seg-Sex: 8h-20h | Sáb: 9h-15h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Fale Conosco</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2IzOTlkNCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSI0MCI+RTwvdGV4dD48L3N2Zz4=" alt="EMENEL Logo">
+                </div>
+                <p>A EMENEL oferece soluções completas em gestão e manutenção industrial e predial para elevar sua operação ao próximo nível.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Serviços</h3>
+                <ul>
+                    <li><a href="#services" class="nav-link">Manutenção Industrial</a></li>
+                    <li><a href="#services" class="nav-link">Manutenção Predial</a></li>
+                    <li><a href="#services" class="nav-link">Corretiva</a></li>
+                    <li><a href="#services" class="nav-link">Preventiva</a></li>
+                    <li><a href="#services" class="nav-link">Preditiva</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#plans" class="nav-link">Planos</a></li>
+                    <li><a href="#testimonials" class="nav-link">Clientes</a></li>
+                    <li><a href="#partners" class="nav-link">Parcerias</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#" id="privacyPolicy">Política de Privacidade</a></li>
+                    <li><a href="#" id="termsService">Termos de Serviço</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 EMENEL. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal" id="privacyModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Política de Privacidade</h2>
+            <p>A Emenel valoriza a privacidade de seus clientes e está comprometida em proteger suas informações pessoais. Esta política descreve como coletamos, usamos e protegemos os dados fornecidos por você através deste site.</p>
+            
+            <h3>1.1 Informações Coletadas</h3>
+            <p>Coletamos informações pessoais que você nos fornece voluntariamente, como nome, endereço de e-mail, número de telefone e detalhes da empresa quando você preenche formulários em nosso site ou entra em contato conosco.</p>
+            
+            <h3>1.2 Uso das Informações</h3>
+            <p>Suas informações pessoais são utilizadas para fornecer os serviços solicitados, responder a suas consultas, enviar comunicações sobre nossos serviços caso você tenha optado por recebê-las, e melhorar nossa oferta de serviços.</p>
+            
+            <h3>1.3 Compartilhamento de Dados</h3>
+            <p>Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, exceto quando necessário para cumprir obrigações legais ou fornecer os serviços contratados (como enviar técnicos para manutenção).</p>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div class="modal" id="termsModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Termos de Serviço</h2>
+            <p>Ao utilizar nossos serviços ou este site, você concorda com os seguintes termos:</p>
+            
+            <h3>2.1 Serviços</h3>
+            <p>Os detalhes dos serviços são descritos nas páginas correspondentes deste site. Os valores e escopos podem ser ajustados conforme negociação direta com nossos representantes.</p>
+            
+            <h3>2.2 Pagamentos</h3>
+            <p>Os valores dos serviços são cotados em reais e o pagamento deve ser realizado conforme acordado no contrato de prestação de serviços.</p>
+            
+            <h3>2.3 Cancelamento</h3>
+            <p>Planos anuais possuem período de carência de 30 dias para cancelamento com reembolso proporcional. Planos mensais podem ser cancelados a qualquer momento com aviso prévio de 15 dias.</p>
+            
+            <h3>3. Direitos Autorais</h3>
+            <p>Todos os conteúdos deste site, incluindo textos, imagens e logotipos, são propriedade da Emenel e protegidos por leis de direitos autorais.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tab functionality for plans section
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.plans-content');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons and contents
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    // Show corresponding content
+                    const tabId = button.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+
+            // Mobile menu toggle
+            const mobileMenuBtn = document.querySelector('.mobile-menu');
+            const navList = document.querySelector('nav ul');
+            
+            mobileMenuBtn.addEventListener('click', () => {
+                navList.classList.toggle('show');
+            });
+
+            // Close mobile menu when clicking a nav link
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    navList.classList.remove('show');
+                });
+            });
+
+            // Modal functionality
+            const privacyLink = document.getElementById('privacyPolicy');
+            const termsLink = document.getElementById('termsService');
+            const privacyModal = document.getElementById('privacyModal');
+            const termsModal = document.getElementById('termsModal');
+            const closeButtons = document.querySelectorAll('.close-modal');
+            
+            privacyLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                privacyModal.style.display = 'flex';
+            });
+            
+            termsLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                termsModal.style.display = 'flex';
+            });
+            
+            closeButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    privacyModal.style.display = 'none';
+                    termsModal.style.display = 'none';
+                });
+            });
+            
+            // Close modal when clicking outside
+            window.addEventListener('click', (e) => {
+                if (e.target === privacyModal) {
+                    privacyModal.style.display = 'none';
+                }
+                if (e.target === termsModal) {
+                    termsModal.style.display = 'none';
+                }
+            });
+
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
