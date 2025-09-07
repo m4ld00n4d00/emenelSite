@@ -51,4 +51,4 @@ Este projeto foi concebido e desenvolvido pelos seguintes alunos do **SENAI**:
 ---
 
 
-✨ *Projeto desenvolvido com fins educacionais.*
+✨ *Projeto desenvolvido para fins educacionais.*
