@@ -37,7 +37,7 @@ Este projeto foi concebido e desenvolvido pelos seguintes alunos do **SENAI**:
 ### 💡 Colaboradores Secundários no Desenvolvimento do Site
 
 - Ana Clara Rimulado Pires — *(4/4 Termo Desenvolvimento de Sistemas)*  
-- João Pedro Nunes — *(2/4 Termo Desenvolvimento de Sistemas)*  
+- João Pedro Nunes — *(2/3 Termo Desenvolvimento de Sistemas)*  
 
 
 ---
